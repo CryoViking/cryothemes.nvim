@@ -1,14 +1,14 @@
 local M = {
-	module = "umbral",
-	colorscheme = "umbral",
-	opts = { style = "void", plugins = { all = true } },
+	module = "fallout4_improved",
+	colorscheme = "fallout4_improved",
+	opts = { style = "fallout4_default", plugins = { all = true } },
 	globals = { vim = true },
 	cache = {}, ---@type table<string, boolean>
 }
 
 function M.reset()
-	require("umbral.util").cache.clear()
-	local colors = require("umbral.colors").setup()
+	require("fallout4_improved.util").cache.clear()
+	local colors = require("fallout4_improved.colors").setup()
 	M.globals.colors = colors
 	M.globals.c = colors
 end

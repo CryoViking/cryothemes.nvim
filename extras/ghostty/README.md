@@ -1,13 +1,10 @@
-# Ghostty Installation 
+# Ghostty Installation
 
-To install into Ghostty - clone down this repo and then add the 
-path of `theme` inside the ghostty config, to the absolute path 
-of the theme file:
+To install this theme for Ghostty, add the absolute path to the theme file in your Ghostty config.
 
-```bash 
-git clone https://github.com/pix-xip/umbral.nvim
-```
+For example:
 
 ```ini
-theme = "/home/pix/AdeptusCustodes/Lunar/nvim_plugins/umbral.nvim/extras/ghostty/umbral
+# Make sure to replace this with the actual path to where you've cloned fallout4_improved.nvim!
+theme = "/path/to/your/plugins/fallout4_improved.nvim/extras/ghostty/fallout4_improved"
 ```
