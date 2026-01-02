@@ -23,7 +23,7 @@ local palette = {
   bg              = "#000000",
   dark_bg         = "#000000",
   fg              = "#23D962",
-  string_fg       = "#BDBDBD",
+  string_fg       = "#BDBFBD",
   todo_fg         = "#26A69A",
   dark_fg         = "#1b733e",
 
@@ -52,3 +52,4 @@ local palette = {
 }
 
 return palette
+

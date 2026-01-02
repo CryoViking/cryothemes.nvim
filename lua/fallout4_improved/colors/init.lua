@@ -27,7 +27,7 @@ function M.setup(opts)
 	util.bg = colors.bg
 	util.fg = colors.fg
 
-	colors.none = "NONE"
+	colors.none = "none"
 
 	colors.diff = {
 		add = util.blend_bg(colors.primary, 0.15),
