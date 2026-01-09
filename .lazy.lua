@@ -1,7 +1,7 @@
 local M = {
 	module = "cryo_themes",
 	colorscheme = "cryo_themes",
-	opts = { style = "fallout4_enhanced", plugins = { all = true } },
+	opts = { style = "cyberpunk", plugins = { all = true } },
 	globals = { vim = true },
 	cache = {}, ---@type table<string, boolean>
 }
