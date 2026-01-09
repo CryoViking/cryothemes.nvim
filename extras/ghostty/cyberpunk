@@ -1,0 +1,35 @@
+# Colour, BrightColour
+# 0, 8  -- Black
+# 1, 9  -- Red
+# 2, 10 -- Green
+# 3, 11 -- Yellow
+# 4, 12 -- Blue
+# 5, 13 -- Magenta
+# 6, 14 -- Cyan
+# 7, 15 -- White
+
+palette = 0=#0A0E14
+palette = 1=#FF3366
+palette = 2=#00DFAF
+palette = 3=#FF8C00
+palette = 4=#00DFFF
+palette = 5=#9D00FF
+palette = 6=#00DFFF
+palette = 7=#E0E0E0
+
+palette = 8=#686868
+palette = 9=#FF6699
+palette =10=#00DFAF
+palette =11=#FFA54F
+palette =12=#66F0FF
+palette =13=#C566FF
+palette =14=#66F0FF
+palette =15=#FFFFFF
+
+background = #0A0E14
+foreground = #E0E0E0
+
+cursor-color = #F0218B
+
+selection-background = #2A2A4D
+selection-foreground = #FFFFFF

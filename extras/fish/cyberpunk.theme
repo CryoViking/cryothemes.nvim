@@ -1,0 +1,38 @@
+# cyberpunk theme for Fish Shell
+# To use, add this to your config.fish file:
+# set fish_theme cyberpunk
+
+# Base colors
+fish_color_normal E0E0E0
+fish_color_autosuggestion 4A5F78
+fish_color_cancel FF3366 --reverse
+fish_color_command 00DFFF
+fish_color_comment 4A5F78
+fish_color_cwd F0218B
+fish_color_cwd_root FF3366
+fish_color_end 00DFFF
+fish_color_error FF3366
+fish_color_escape 00DFFF
+fish_color_history_current --bold
+fish_color_host 888888
+fish_color_host_remote 00DFFF
+fish_color_operator FF8C00
+fish_color_param E0E0E0
+fish_color_quote C8A2C8
+fish_color_redirection FF8C00 --bold
+fish_color_search_match E0E0E0 --background=2A2A4D --bold
+fish_color_selection E0E0E0 --background=2A2A4D --bold
+fish_color_status FF3366
+fish_color_user F0218B
+fish_color_valid_path --underline
+fish_color_option FF8C00
+
+# Pager (completion menu) colors
+fish_pager_color_completion E0E0E0
+fish_pager_color_description 4A5F78
+fish_pager_color_prefix F0218B --bold --underline
+fish_pager_color_progress F0218B --background=2A2A4D --bold
+fish_pager_color_selected_background --background=2A2A4D
+fish_pager_color_selected_completion FFFFFF
+fish_pager_color_selected_description 4A5F78
+fish_pager_color_selected_prefix FFFFFF --bold --underline

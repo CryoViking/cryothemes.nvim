@@ -1,0 +1,20 @@
+// Cyberpunk Zellij Colours
+// Add file to `CONFIG_DIR/themes` as per this:
+// https://zellij.dev/documentation/themes#getting-zellij-to-pick-up-the-theme
+
+themes {
+  cyberpunk {
+    fg      "#E0E0E0"
+    bg      "#0A0E14"
+    black   "#0A0E14"
+    red     "#FF3366"
+    green   "#00DFAF"
+    yellow  "#FF8C00"
+    blue    "#00DFFF"
+    magenta "#9D00FF"
+    cyan    "#00DFFF"
+    white   "#E0E0E0"
+    orange  "#FF8C00"
+    pink    "#F0218B"
+  }
+}

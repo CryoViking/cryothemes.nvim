@@ -1,0 +1,104 @@
+# cyberpunk theme for eza
+# Place this file in ~/.config/eza/themes/cyberpunk.yml
+colourful: true
+
+filekinds:
+  normal: { foreground: "#E0E0E0" }
+  directory: { foreground: "#00DFFF" }
+  symlink: { foreground: "#66F0FF" }
+  pipe: { foreground: "#FF8C00" }
+  block_device: { foreground: "#FFA54F" }
+  char_device: { foreground: "#FFA54F" }
+  socket: { foreground: "#9D00FF" }
+  special: { foreground: "#C566FF" }
+  executable: { foreground: "#00DFAF" }
+  mount_point: { foreground: "#F0218B" }
+
+perms:
+  user_read: { foreground: "#E0E0E0" }
+  user_write: { foreground: "#FF8C00" }
+  user_execute_file: { foreground: "#00DFAF" }
+  user_execute_other: { foreground: "#00DFAF" }
+  group_read: { foreground: "#E0E0E0" }
+  group_write: { foreground: "#FF8C00" }
+  group_execute: { foreground: "#00DFAF" }
+  other_read: { foreground: "#686868" }
+  other_write: { foreground: "#888888" }
+  other_execute: { foreground: "#686868" }
+  special_user_file: { foreground: "#C566FF" }
+  special_other: { foreground: "#C566FF" }
+  attribute: { foreground: "#C566FF" }
+
+size:
+  major: { foreground: "#4A5F78" }
+  minor: { foreground: "#00DFFF" }
+  number_byte: { foreground: "#E0E0E0" }
+  number_kilo: { foreground: "#E0E0E0" }
+  number_mega: { foreground: "#E0E0E0" }
+  number_giga: { foreground: "#E0E0E0" }
+  number_huge: { foreground: "#E0E0E0" }
+  unit_byte: { foreground: "#4A5F78" }
+  unit_kilo: { foreground: "#4A5F78" }
+  unit_mega: { foreground: "#4A5F78" }
+  unit_giga: { foreground: "#4A5F78" }
+  unit_huge: { foreground: "#4A5F78" }
+
+users:
+  user_you: { foreground: "#F0218B" }
+  user_root: { foreground: "#FF3366" }
+  user_other: { foreground: "#E0E0E0" }
+  group_yours: { foreground: "#F0218B" }
+  group_other: { foreground: "#E0E0E0" }
+  group_root: { foreground: "#FF3366" }
+
+links:
+  normal: { foreground: "#66F0FF" }
+  multi_link_file: { foreground: "#00DFFF" }
+
+git:
+  new: { foreground: "#00DFAF" }
+  modified: { foreground: "#00DFFF" }
+  deleted: { foreground: "#FF3366" }
+  renamed: { foreground: "#00DFFF" }
+  typechange: { foreground: "#FF8C00" }
+  ignored: { foreground: "#4A5F78" }
+  conflicted: { foreground: "#FF3366" }
+
+git_repo:
+  branch_main: { foreground: "#F0218B" }
+  branch_other: { foreground: "#E0E0E0" }
+  git_clean: { foreground: "#00DFAF" }
+  git_dirty: { foreground: "#FF3366" }
+
+security_context:
+  colon: { foreground: "#4A5F78" }
+  user: { foreground: "#E0E0E0" }
+  role: { foreground: "#C566FF" }
+  typ: { foreground: "#4A5F78" }
+  range: { foreground: "#C566FF" }
+
+file_type:
+  image: { foreground: "#C566FF" }
+  video: { foreground: "#9D00FF" }
+  music: { foreground: "#00DFAF" }
+  lossless: { foreground: "#00DFFF" }
+  crypto: { foreground: "#4A5F78" }
+  document: { foreground: "#E0E0E0" }
+  compressed: { foreground: "#FF8C00" }
+  temp: { foreground: "#686868" }
+  compiled: { foreground: "#FFA54F" }
+  build: { foreground: "#4A5F78" }
+  source: { foreground: "#E0E0E0" }
+
+punctuation: { foreground: "#4A5F78" }
+date: { foreground: "#E0E0E0" }
+inode: { foreground: "#4A5F78" }
+blocks: { foreground: "#686868" }
+header: { foreground: "#F0218B" }
+octal: { foreground: "#FF8C00" }
+flags: { foreground: "#C566FF" }
+
+symlink_path: { foreground: "#66F0FF" }
+control_char: { foreground: "#FF3366" }
+broken_symlink: { foreground: "#FF3366" }
+broken_path_overlay: { foreground: "#FF3366" }
