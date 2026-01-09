@@ -1,2 +1,0 @@
-let s:palette = v:lua.require("lightline.colorscheme.fallout4_improved")
-let g:lightline#colorscheme#fallout4_improved#palette = lightline#colorscheme#fill(s:palette)

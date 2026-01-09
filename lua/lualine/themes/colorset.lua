@@ -2,7 +2,7 @@ local M = {}
 
 ---@param style? string
 function M.get(style)
-	local colors, config = require("fallout4_improved.colors").setup({
+	local colors, config = require("cryo_themes.colors").setup({
 		style = style,
 	})
 

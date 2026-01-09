@@ -1,1 +1,0 @@
-require("fallout4_improved").load({ style = "fallout4_enhanced" })

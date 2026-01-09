@@ -1,14 +1,14 @@
 local M = {
-	module = "fallout4_improved",
-	colorscheme = "fallout4_improved",
-	opts = { style = "fallout4_default", plugins = { all = true } },
+	module = "cryo_themes",
+	colorscheme = "cryo_themes",
+	opts = { style = "fallout4_enhanced", plugins = { all = true } },
 	globals = { vim = true },
 	cache = {}, ---@type table<string, boolean>
 }
 
 function M.reset()
-	require("fallout4_improved.util").cache.clear()
-	local colors = require("fallout4_improved.colors").setup()
+	require("cryo_themes.util").cache.clear()
+	local colors = require("cryo_themes.colors").setup()
 	M.globals.colors = colors
 	M.globals.c = colors
 end

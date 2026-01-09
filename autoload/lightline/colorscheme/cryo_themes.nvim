@@ -1,0 +1,2 @@
+let s:palette = v:lua.require("lightline.colorscheme.cryo_themes")
+let g:lightline#colorscheme#cryo_themes#palette = lightline#colorscheme#fill(s:palette)
